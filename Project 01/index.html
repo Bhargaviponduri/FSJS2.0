@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <title>SEO Master</title>
+  <style>
+    .body {
+      padding: 0;
+      margin: 0;
+    }
+
+    .banner-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0;
+    }
+
+    .heading-text {
+      color: #1d0d43;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60px;
+      margin: 0;
+    }
+
+    span {
+      color: #383CC1;
+    }
+
+    .description {
+      color: #808080;
+    }
+
+    .nav-button {
+      background-color: #383CC1;
+      color: aliceblue;
+      border-radius: 12px;
+      padding: 20px 45px;
+      justify-content: center;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      border: none;
+    }
+
+    .grow-list {
+      width: 500px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 200;
+    }
+
+    .list {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: space-between;
+      position: relative;
+      right: 250px;
+    }
+
+    .list-item{
+      color: #808080;
+    }
+    .navbar-container {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: space-around;
+      align-items: center;
+      margin: 20px;
+    }
+
+    .container {
+      font-family: 'Poppins';
+      font-style: normal;
+    }
+    .banner-container > div{
+      width: 450px;
+    }
+    .banner-container div+div{
+      position: relative;
+      right:250px
+    }
+    .grow-list .list :first-child {
+      color: black;
+      font-weight: 400;
+    }
+    .btn{
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <section aria-label="navbar">
+      <nav class="navbar-container">
+        <div class="logo">
+          <img src="./assets/Logo.png" alt="brand-logo" height="45px" />
+        </div>
+        <div class="grow-list">
+          <ul class="list">
+            <li class="list-item">Home</li>
+            <li class="list-item">About</li>
+            <li class="list-item">Services</li>
+            <li class="list-item">Portfolio</li>
+            <li class="list-item">Pricing</li>
+          </ul>
+        </div>
+        <div class="button-group">
+          <button class="nav-button">Contact Us</button>
+        </div>
+      </nav>
+    </section>
+    <!-- Banner -->
+    <section aria-label="banner">
+      <div class="banner-container">
+        <!-- Left text -->
+        <div>
+          <h1 class="heading-text">
+            We Help You <span>Crush</span> Your Competition
+          </h1>
+          <p class="description">
+            Build trust to connect your brand to billions of users and grow
+            your revenue through SEO.
+          </p>
+          <button class="nav-button btn">See our services</button>
+        </div>
+        <!-- Right Text -->
+        <div>
+          <img src="./assets/Header Illustration.png" alt="illustration"/>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e5e7e5;
+    font-family: 'Montserrat';
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+    margin-right:50px
+}
+nav img{
+    padding: 0 5%;
+}
+.stethoscope img{
+    position: absolute;
+    top:10%;
+    left:20%;
+    height:600px
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* height: 50vh */
+}
+h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+.left-main{
+    margin-left: 5%;
+    width: 50%;
+}
+.right-main{
+    width: 50%;
+}
+.topAngle{
+    position: relative;
+    top:10%;
+}
+.bottomAngle img{
+    width: 25px;
+    position: relative;
+    left: 650px
+}
+
+.left-main p{
+    font-size:20px;
+    color: #808080;
+    margin-top:0;
+    margin-bottom: 0;
+}
+.left-main button{
+    background-color: #4ea36c;
+    color: white;
+    padding: 20px 35px;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+}
+.mouse{
+    position: relative;
+    bottom: 2%;
+    left: 100%
+}
+.green img, .yellow img{
+    position:absolute;
+    z-index:-1;
+    right:0
+}
+.green img{
+    width: 35%;
+    bottom:60px
+}
+.yellow img{
+    width: 30%;
+    bottom: 70px
+}
+.doctor img{
+    /* z-index:1; */
+    height:90%;
+    position:absolute;
+    bottom: 0;
+    right:0;
+}
